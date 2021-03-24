@@ -1,0 +1,39 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=development jest",
+    "start": "cross-env NODE_ENV=development node ./main.ja",
+    "start:dev": "cross-env NODE_ENV=development node ./main.js",
+    "start:pro": "npm start",
+    "start:watch": "nodemon cross-env NODE _ENV=development ./main.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasz-sygula/test.git"
+  },
+  "author": "lukaszsygula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukasz-sygula/test/issues"
+  },
+  "homepage": "https://github.com/lukasz-sygula/test#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "mongodb": "^3.6.4",
+    "supertest": "^6.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  }
+}
